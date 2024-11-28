@@ -1,0 +1,293 @@
+html,body{
+    background:
+    url("/Images/FondJour.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lexend-VariableFont_wght';
+}
+
+@font-face {
+    font-family: Knewave-Regular;
+    src: url('/font/Lexend-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.formulaire_theme{
+    position:absolute;
+    left: 10px;
+    top: 0px;
+}
+
+h2.formulaire_theme{
+    font-size: small;
+}
+
+h1.GrandTitreAcceuil{
+    display: flex;
+    justify-content: center;
+}
+
+.cacher{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.affiche_param{
+    position:absolute;
+    top: 10px;
+}
+
+.main_stats{
+    display: flex;
+    
+}
+
+#main_s{
+    height: 100%;
+}
+
+#main_acceuil{
+    height: 100%;
+}
+
+#main_partenaires{
+    height: 100%;
+}
+
+#tableau{
+    position: relative;
+}
+
+.ligne{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    border: solid 2px black;
+
+}
+
+.icone{
+    width: 75px;
+    height: 75px;
+    border-right: solid 2px black;
+}
+
+.nom{
+    display: flex;
+    width: 150px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    border-right: solid 2px black;
+}
+
+.build{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 300px;
+    height: 75px;
+    border-right: solid 1px black;
+}
+
+a{
+    color:brown;
+}
+
+.TierEx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100px;
+    text-align: center;
+}
+
+.Stier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    width: 100px;
+    text-align: center;
+}
+
+.Atier{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+
+}
+
+.Btier{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+}
+
+.WRpos{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100px;
+    height: 75px;
+    color: rgb(66, 49, 161);
+    font-size: large;
+    font-weight: bold;
+}
+
+.WRneg{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100px;
+    height: 75px;
+    color: rgb(255, 0, 0);
+    font-size: large;
+    font-weight: bold;
+}
+
+.tableau2titre{
+    position: relative;
+    left: 50px;
+}
+
+.tableau2{
+    position: relative;
+    left: 40px;
+    width:max-content;
+    height: max-content;
+    text-align: center;
+}
+
+.player{
+    width: 100px;
+    height: 50px;
+}
+
+.played{
+    width: 100px;
+    height: 50px;
+}
+
+.WetL{
+    width: 100px;
+    height: 50px;
+}
+
+#WRavecP{
+    width: 100px;
+    height: 50px;
+}
+
+.WRcolorneg{
+    color: rgb(255, 0, 0);
+    font-size: large;
+    font-weight: bold;
+}
+
+.WRcolorpos{
+    color:rgb(66, 49, 161);
+    font-size: large;
+    font-weight: bold;
+}
+
+.page_mentions{
+    display: flex;
+    justify-content:center;
+
+}
+
+.bloc_mentions{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 95%;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+.home_ico{
+    width: 30px;
+    position: absolute;
+    top: 0%;
+}
+
+.shacogif{
+    position:relative;
+}
+
+.banderole_bas{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: brown;
+}
+
+.mentions_legales{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mentions_legales:hover{
+    border-radius: 10%;
+    background-color: darkred;
+}
+
+
+.container_boutons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_bouton_sablier{
+    position: relative;
+    top: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_bouton_stats{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 175px;
+
+}
+#braingif{
+    width: 50%;
+    height: 50%;
+    border-radius: 45%;
+}
+
+#sablier{
+    width: 34%;
+}
