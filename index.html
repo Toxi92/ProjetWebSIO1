@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Accueil</title>
+        <link id="Style_Theme" href="/Styles/fiche_style1.css" type="text/css" rel="stylesheet">
+    
+    </head>
+
+    <body>
+        <h1 class="GrandTitreAcceuil">Accueil</h1>
+        <main id="main_acceuil">
+            <div id="Contient_formulaire" class="cacher">
+                <form class="formulaire_theme" id="formulaire_theme">
+                    <h2>Choisissez votre thème :</h2>
+        
+                    <label>
+                        <input type="radio" name="Theme" value="ThemeSombre" checked>Thème Sombre
+                    </label><br>
+        
+                    <label>
+                        <input type="radio" name="Theme" value="ThemeClair">Thème clair
+                    </label><br>
+                    <button type="submit">Appliquer</button>
+        
+                </form>
+            </div>
+
+    
+            <form class="affiche_param" id="formulaire_check">
+                <label>
+                    <input type="checkbox" id="case_cochable" unchecked>Masquer/Afficher paramètres
+                </label>
+            </form>
+
+            <div class="container_boutons">
+                <div class="container_bouton_stats">
+                    <a href="./stats_lol.html"><h3>Stats</h3></a>
+                    <img id="braingif" src="/Images/brain.gif">
+                </div>
+
+                <div class="container_bouton_sablier">
+                    <h3>Autre fonctionnalité bientôt ( non )</h3>
+                    <img id="sablier" src="/Images/sablier.gif">
+                </div>
+            </div>
+
+            
+        </main>
+
+
+        
+        <div class="banderole_bas">
+                <a class="mentions_legales" href="./mentions_legale.html"><p>Mentions Légales</p></a>
+                <a class="mentions_legales" href="./get_partenaires_by_bdd.php"><p>Sites partenaires</p></a>
+                <a class="mentions_legales" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&pp=ygUGI3dlcHVp"><p>Arrêter d'être nul en HTML/CSS ( à regarder )</p></a>
+                <a class="mentions_legales" href="/rien.html"><p>Plus trop d'idées</p></a>
+            </div>
+
+        <script src="./scripts/changement_theme.js"></script>
+        <script src="./scripts/formCheck.js"></script>
+    </body>
+</html>
